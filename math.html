@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Math Test</title>
+</head>
+
+<body>
+    <div id="main" class="center">
+        <div style="display: flex;justify-content: space-between;width:100%;padding: 0;">
+            <span id="counter" style="font-size: 20px;">counter: 0</span>
+            <span id="timer" style="font-size: 20px;">Timer: 00:00</span>
+            <span id="mean-time" style="font-size: 20px;">Mean: 0s</span>
+        </div>
+        <div id="correct" style="float: left;width: 100%;font-size: 20px;"><span>correct : 0</span></div>
+        <div id="question" style="padding: 15px;font-size: 25px;">
+            <span id="number1">?</span>
+            <span style="margin: 10px;">❌</span>
+            <span id="number2">?</span>
+        </div>
+        <div><input id="input" readonly /></div>
+        <div id="keyboard">
+            <button class="btn" onclick="KeyDown(this)" class="number">1</button>
+            <button class="btn" onclick="KeyDown(this)" class="number">2</button>
+            <button class="btn" onclick="KeyDown(this)" class="number">3</button>
+            <button class="btn" onclick="KeyDown(this)" class="number">4</button>
+            <button class="btn" onclick="KeyDown(this)" class="number">5</button>
+            <button class="btn" onclick="KeyDown(this)" class="number">6</button>
+            <button class="btn" onclick="KeyDown(this)" class="number">7</button>
+            <button class="btn" onclick="KeyDown(this)" class="number">8</button>
+            <button class="btn" onclick="KeyDown(this)" class="number">9</button>
+            <button class="btn" onclick="KeyDown(this)" class="number">←</button>
+            <button class="btn" onclick="KeyDown(this)" class="number">0</button>
+            <button class="btn" class="number">-</button>
+        </div>
+        <div style="display:flex;justify-content: space-around;width:100%;margin-top: 10px;">
+            <button id="answer">Answer</button>
+            <button id="start" class="center">Start</button>
+            <button id="next">Next</button>
+        </div>
+
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
