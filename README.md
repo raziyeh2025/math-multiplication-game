@@ -74,8 +74,8 @@ This ensures the best score remains even after refreshing the page.
 ---
 
 ## 📷 Preview
-![Screenshot1.png]
-![Screenshot2.png]
+!(Screenshot1.png)
+!(Screenshot2.png)
 
 ---
 
