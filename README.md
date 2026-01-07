@@ -74,8 +74,8 @@ This ensures the best score remains even after refreshing the page.
 ---
 
 ## 📷 Preview
-!(Screenshot1.png)
-!(Screenshot2.png)
+![math-multiplication-game](Screenshot1.png)
+![math-multiplication-game](Screenshot2.png)
 
 ---
 
